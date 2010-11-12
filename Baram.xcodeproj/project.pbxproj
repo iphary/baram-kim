@@ -1,0 +1,1702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		59194BED0E15E99400EDCEE5 /* all */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 59194BF80E15E9AF00EDCEE5 /* Build configuration list for PBXAggregateTarget "all" */;
+			buildPhases = (
+			);
+			dependencies = (
+				599528CF0E1B0B9E00D375CB /* PBXTargetDependency */,
+				59194BF30E15E99D00EDCEE5 /* PBXTargetDependency */,
+			);
+			name = all;
+			productName = all;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		510848711059E8F40038D787 /* BRServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 510848701059E8F40038D787 /* BRServer.m */; };
+		511226841062216000CF5A3A /* BIMUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F0676D10560BFC0097F4AE /* BIMUserDefaults.m */; };
+		511B7AC110631745001A34B3 /* JapaneseEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 511B7AC010631745001A34B3 /* JapaneseEngine.m */; };
+		511F62331203D5D500AC8B62 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 511F62321203D5D500AC8B62 /* Info.plist */; };
+		511F62351203D61700AC8B62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 511F62341203D61700AC8B62 /* main.m */; };
+		511F623D1203D6D800AC8B62 /* AboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 511F623C1203D6D800AC8B62 /* AboutWindowController.m */; };
+		511F62401203D71A00AC8B62 /* AboutWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 511F623E1203D71A00AC8B62 /* AboutWindow.xib */; };
+		511F62431203D7F900AC8B62 /* BADelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 511F62421203D7F900AC8B62 /* BADelegate.m */; };
+		511F62461203D80800AC8B62 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 511F62441203D80800AC8B62 /* MainMenu.xib */; };
+		511F628E1203DD4900AC8B62 /* baram.icns in Resources */ = {isa = PBXBuildFile; fileRef = 59842FD40E15DD3900B268B7 /* baram.icns */; };
+		511F62C71203E2B000AC8B62 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 511F62C51203E2B000AC8B62 /* Localizable.strings */; };
+		511F62F21203E94500AC8B62 /* BaramAbout.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 511F621E1203D58B00AC8B62 /* BaramAbout.app */; };
+		512EA39010620EFF0099FBC4 /* BaramRemapper.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 512EA38C10620ED10099FBC4 /* BaramRemapper.sh */; };
+		5143AFDA1061C076009FDDB0 /* Shortcuts.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 5143AFD91061C076009FDDB0 /* Shortcuts.tiff */; };
+		5156421910564F020077970B /* BIMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 515CE1E31055275A00514BBA /* BIMConstants.m */; };
+		5156421B10564F020077970B /* BIMUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F0676D10560BFC0097F4AE /* BIMUserDefaults.m */; };
+		5156422410564FB30077970B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5156422310564FB30077970B /* main.m */; };
+		515CE1E41055275A00514BBA /* BIMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 515CE1E31055275A00514BBA /* BIMConstants.m */; };
+		515CE1E51055275A00514BBA /* BIMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 515CE1E31055275A00514BBA /* BIMConstants.m */; };
+		515CE1E71055275A00514BBA /* BIMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 515CE1E31055275A00514BBA /* BIMConstants.m */; };
+		5163309B121C30220068C141 /* EnableAccessibilityAPI.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51633090121C30160068C141 /* EnableAccessibilityAPI.app */; };
+		5163CC831067B8AE00B84BB2 /* BaramDictionary.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51BEF8B31067B5E5006AA5D6 /* BaramDictionary.app */; };
+		5168D8CC11FDEB2900B56A16 /* BIMTrigger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5168D8CB11FDEB2900B56A16 /* BIMTrigger.m */; };
+		5168D98C11FE928200B56A16 /* BaramHangul.m in Sources */ = {isa = PBXBuildFile; fileRef = 5168D8B611FCA04B00B56A16 /* BaramHangul.m */; };
+		5171AA871084CA37009C3F81 /* SRKeyCodeTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5171AA861084CA37009C3F81 /* SRKeyCodeTransformer.m */; };
+		5171AAB41084CBC5009C3F81 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5954DBE70EB15B4B004AD5CA /* Carbon.framework */; };
+		5174E6B110848A9C00468B92 /* ShortcutRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5174E6B010848A9C00468B92 /* ShortcutRecorder.m */; };
+		51757ACD1054CD4F00453C30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51757ACC1054CD4F00453C30 /* main.m */; };
+		51757B031054CFE300453C30 /* BPController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51757B021054CFE300453C30 /* BPController.m */; };
+		51757B071054D03300453C30 /* DBPrefsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BF8C1B0E937C9D00C8673B /* DBPrefsWindowController.m */; };
+		51757B081054D06900453C30 /* FileIconTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EEDBED0EB1AF420068740C /* FileIconTransformer.m */; };
+		51757B091054D06900453C30 /* FilenameFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 597A81A40EB1994A000E84B1 /* FilenameFormatter.m */; };
+		51757B381054D46000453C30 /* BPDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51757B371054D46000453C30 /* BPDelegate.m */; };
+		51757BA31054D90300453C30 /* Advanced.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 51757B9F1054D90300453C30 /* Advanced.tiff */; };
+		51757BA41054D90300453C30 /* Dictionary.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 51757BA01054D90300453C30 /* Dictionary.tiff */; };
+		51757BA51054D90300453C30 /* General.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 51757BA11054D90300453C30 /* General.tiff */; };
+		51757BA61054D90300453C30 /* Trigger.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 51757BA21054D90300453C30 /* Trigger.tiff */; };
+		51757BAB1054D93900453C30 /* Application.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 51757BA91054D93900453C30 /* Application.tiff */; };
+		51757BAC1054D93900453C30 /* Update.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 51757BAA1054D93900453C30 /* Update.tiff */; };
+		5181C893127EAD7A00B239E3 /* uninstall.sh in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5183E234127EAC37006D8E0B /* uninstall.sh */; };
+		5185F1AB1067B9530042EF88 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5185F1A91067B9530042EF88 /* Localizable.strings */; };
+		5185F1AE1067B9640042EF88 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5185F1AC1067B9640042EF88 /* MainMenu.xib */; };
+		5198620A1070DB85005EE00F /* BRClientWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 519862091070DB85005EE00F /* BRClientWrapper.m */; };
+		51A3C2DE1068C404009377AA /* BIMModeIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A3C2DD1068C404009377AA /* BIMModeIndicator.m */; };
+		51BEF8CD1067B66B006AA5D6 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BEF8CA1067B66B006AA5D6 /* AppController.m */; };
+		51BEF8CE1067B66B006AA5D6 /* DictionaryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BEF8CC1067B66B006AA5D6 /* DictionaryManager.m */; };
+		51BEF8D11067B687006AA5D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BEF8D01067B687006AA5D6 /* main.m */; };
+		51BEF8E51067B6BB006AA5D6 /* BaramDictionary.icns in Resources */ = {isa = PBXBuildFile; fileRef = 51BEF8D31067B6BB006AA5D6 /* BaramDictionary.icns */; };
+		51BEF8E61067B6BB006AA5D6 /* General.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BEF8D41067B6BB006AA5D6 /* General.png */; };
+		51BEF8E71067B6BB006AA5D6 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BEF8D61067B6BB006AA5D6 /* green.png */; };
+		51BEF8E81067B6BB006AA5D6 /* Locked.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BEF8D71067B6BB006AA5D6 /* Locked.png */; };
+		51BEF8F51067B6BB006AA5D6 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BEF8E41067B6BB006AA5D6 /* yellow.png */; };
+		51BEF8F91067B71A006AA5D6 /* BIMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 515CE1E31055275A00514BBA /* BIMConstants.m */; };
+		51BEF8FA1067B735006AA5D6 /* FilenameFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 597A81A40EB1994A000E84B1 /* FilenameFormatter.m */; };
+		51C30F74120719E800ABA614 /* BIMServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C30F73120719E800ABA614 /* BIMServer.m */; };
+		51C30F7C12071D9600ABA614 /* UserDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51C30F7B12071D9600ABA614 /* UserDefaults.plist */; };
+		51CE6D52106202FF000A9538 /* BaramRemapper in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5156420D10564EA50077970B /* BaramRemapper */; };
+		51DC05E0120F027D00EA00AF /* BaramPreferences.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51757AAB1054CC0C00453C30 /* BaramPreferences.app */; };
+		51DDE838106E061F00B8BAC3 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A3C2FC1068C472009377AA /* Quartz.framework */; };
+		51DDE92C106E0B6900B8BAC3 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5954DBE70EB15B4B004AD5CA /* Carbon.framework */; };
+		51F0676E10560BFC0097F4AE /* BIMUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F0676D10560BFC0097F4AE /* BIMUserDefaults.m */; };
+		51F0F8881209B21D0085732E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51F0F8821209B21D0085732E /* Localizable.strings */; };
+		51F0F8891209B21D0085732E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51F0F8841209B21D0085732E /* MainMenu.xib */; };
+		51F0F88A1209B21D0085732E /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51F0F8861209B21D0085732E /* Preferences.xib */; };
+		5907F2320EA0784400C6A249 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5907F2310EA0784400C6A249 /* Sparkle.framework */; };
+		5907F23C0EA0786300C6A249 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5907F2310EA0784400C6A249 /* Sparkle.framework */; };
+		593598010E9B3D3100599BDA /* BaramUpdater.icns in Resources */ = {isa = PBXBuildFile; fileRef = 593598000E9B3D3100599BDA /* BaramUpdater.icns */; };
+		593975540E1B11A1001E0BAA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 593975520E1B11A1001E0BAA /* MainMenu.xib */; };
+		5939757D0E1B1323001E0BAA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		59738C960E2B043800503A73 /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59738C8D0E2B043800503A73 /* ApplicationDelegate.m */; };
+		59738C970E2B043800503A73 /* BaramHanjaTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 59738C8F0E2B043800503A73 /* BaramHanjaTable.m */; };
+		59738C980E2B043800503A73 /* DictionaryEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 59738C910E2B043800503A73 /* DictionaryEngine.m */; };
+		59738C990E2B043800503A73 /* InputController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59738C930E2B043800503A73 /* InputController.m */; };
+		59842FA00E15D70900B268B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59842F990E15D70900B268B7 /* main.m */; };
+		59842FA90E15D78200B268B7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59842FA40E15D78200B268B7 /* MainMenu.xib */; };
+		59842FDE0E15DD3900B268B7 /* baram.icns in Resources */ = {isa = PBXBuildFile; fileRef = 59842FD40E15DD3900B268B7 /* baram.icns */; };
+		59842FDF0E15DD3900B268B7 /* baram.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 59842FD50E15DD3900B268B7 /* baram.tiff */; };
+		59842FE00E15DD3900B268B7 /* english.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 59842FD70E15DD3900B268B7 /* english.tiff */; };
+		59842FE10E15DD3900B268B7 /* hangul.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 59842FD80E15DD3900B268B7 /* hangul.tiff */; };
+		59842FE30E15DD3900B268B7 /* hiragana.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 59842FDA0E15DD3900B268B7 /* hiragana.tiff */; };
+		59842FE50E15DD3900B268B7 /* katakana.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 59842FDC0E15DD3900B268B7 /* katakana.tiff */; };
+		599528D00E1B0BA800D375CB /* BaramUpdater.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 599528BD0E1B0B5100D375CB /* BaramUpdater.app */; };
+		5995290E0E1B0D7A00D375CB /* UpdaterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5995290D0E1B0D7A00D375CB /* UpdaterController.m */; };
+		599529100E1B0DE500D375CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5995290F0E1B0DE500D375CB /* main.m */; };
+		59A2497E0DC7F1B600445EAC /* hangulctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 59A249780DC7F1B600445EAC /* hangulctype.c */; };
+		59A2497F0DC7F1B600445EAC /* hangulinputcontext.c in Sources */ = {isa = PBXBuildFile; fileRef = 59A249790DC7F1B600445EAC /* hangulinputcontext.c */; };
+		59A249800DC7F1B600445EAC /* hanja.c in Sources */ = {isa = PBXBuildFile; fileRef = 59A2497C0DC7F1B600445EAC /* hanja.c */; };
+		59A2498B0DC7F22600445EAC /* InputMethodKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A2498A0DC7F22600445EAC /* InputMethodKit.framework */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D4885BB1128B135800FA079C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59842FA20E15D78200B268B7 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5108490F105A04ED0038D787 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5156420C10564EA50077970B;
+			remoteInfo = BaramRemapper;
+		};
+		511F62F31203E95100AC8B62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 511F621D1203D58B00AC8B62;
+			remoteInfo = BaramAbout;
+		};
+		51757AB61054CC6C00453C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 599528BC0E1B0B5100D375CB;
+			remoteInfo = BaramUpdater;
+		};
+		51757AB81054CC7300453C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51757AAA1054CC0C00453C30;
+			remoteInfo = BaramPreference;
+		};
+		51BEF8BB1067B5FA006AA5D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51BEF8B21067B5E5006AA5D6;
+			remoteInfo = BaramDictionary;
+		};
+		59194BF20E15E99D00EDCEE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090;
+			remoteInfo = Baram;
+		};
+		599528CE0E1B0B9E00D375CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 599528BC0E1B0B5100D375CB;
+			remoteInfo = BaramUpdater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		51757AFE1054CF7B00453C30 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598430A20E15E39300B268B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 12;
+			files = (
+				5181C893127EAD7A00B239E3 /* uninstall.sh in CopyFiles */,
+				5163309B121C30220068C141 /* EnableAccessibilityAPI.app in CopyFiles */,
+				51DC05E0120F027D00EA00AF /* BaramPreferences.app in CopyFiles */,
+				511F62F21203E94500AC8B62 /* BaramAbout.app in CopyFiles */,
+				5163CC831067B8AE00B84BB2 /* BaramDictionary.app in CopyFiles */,
+				512EA39010620EFF0099FBC4 /* BaramRemapper.sh in CopyFiles */,
+				51CE6D52106202FF000A9538 /* BaramRemapper in CopyFiles */,
+				599528D00E1B0BA800D375CB /* BaramUpdater.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599528FE0E1B0C0200D375CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5907F23C0EA0786300C6A249 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		5108486F1059E8F40038D787 /* BRServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRServer.h; path = BaramRemapper/BRServer.h; sourceTree = "<group>"; };
+		510848701059E8F40038D787 /* BRServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRServer.m; path = BaramRemapper/BRServer.m; sourceTree = "<group>"; };
+		510848861059EB1C0038D787 /* BRClientProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRClientProtocol.h; path = BaramRemapper/BRClientProtocol.h; sourceTree = "<group>"; };
+		510848BD1059FD360038D787 /* BRServerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRServerProtocol.h; path = BaramRemapper/BRServerProtocol.h; sourceTree = "<group>"; };
+		511B7ABF10631745001A34B3 /* JapaneseEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JapaneseEngine.h; path = BaramInputMethodKit/JapaneseEngine.h; sourceTree = "<group>"; };
+		511B7AC010631745001A34B3 /* JapaneseEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JapaneseEngine.m; path = BaramInputMethodKit/JapaneseEngine.m; sourceTree = "<group>"; };
+		511F621E1203D58B00AC8B62 /* BaramAbout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaramAbout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		511F62321203D5D500AC8B62 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BaramAbout/Info.plist; sourceTree = "<group>"; };
+		511F62341203D61700AC8B62 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BaramAbout/main.m; sourceTree = "<group>"; };
+		511F623B1203D6D800AC8B62 /* AboutWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutWindowController.h; path = BaramAbout/AboutWindowController.h; sourceTree = "<group>"; };
+		511F623C1203D6D800AC8B62 /* AboutWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutWindowController.m; path = BaramAbout/AboutWindowController.m; sourceTree = "<group>"; };
+		511F623F1203D71A00AC8B62 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = BaramAbout/English.lproj/AboutWindow.xib; sourceTree = "<group>"; };
+		511F62411203D7F900AC8B62 /* BADelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BADelegate.h; path = BaramAbout/BADelegate.h; sourceTree = "<group>"; };
+		511F62421203D7F900AC8B62 /* BADelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BADelegate.m; path = BaramAbout/BADelegate.m; sourceTree = "<group>"; };
+		511F62451203D80800AC8B62 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = BaramAbout/English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		511F62C61203E2B000AC8B62 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = BaramAbout/English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		512EA38C10620ED10099FBC4 /* BaramRemapper.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = BaramRemapper.sh; path = BaramRemapper/BaramRemapper.sh; sourceTree = "<group>"; };
+		512EA38D10620ED10099FBC4 /* kr.or.baram.BaramRemapper.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = kr.or.baram.BaramRemapper.plist; path = BaramRemapper/kr.or.baram.BaramRemapper.plist; sourceTree = "<group>"; };
+		5143AFD91061C076009FDDB0 /* Shortcuts.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Shortcuts.tiff; sourceTree = "<group>"; };
+		5156420D10564EA50077970B /* BaramRemapper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BaramRemapper; sourceTree = BUILT_PRODUCTS_DIR; };
+		5156422310564FB30077970B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BaramRemapper/main.m; sourceTree = "<group>"; };
+		515CE1E21055275A00514BBA /* BIMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIMConstants.h; path = common/BIMConstants.h; sourceTree = "<group>"; };
+		515CE1E31055275A00514BBA /* BIMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIMConstants.m; path = common/BIMConstants.m; sourceTree = "<group>"; };
+		51633090121C30160068C141 /* EnableAccessibilityAPI.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = EnableAccessibilityAPI.app; path = BaramRemapper/EnableAccessibilityAPI.app; sourceTree = "<group>"; };
+		5168D8B511FCA04B00B56A16 /* BaramHangul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaramHangul.h; path = BaramInputMethodKit/BaramHangul.h; sourceTree = "<group>"; };
+		5168D8B611FCA04B00B56A16 /* BaramHangul.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaramHangul.m; path = BaramInputMethodKit/BaramHangul.m; sourceTree = "<group>"; };
+		5168D8CA11FDEB2900B56A16 /* BIMTrigger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIMTrigger.h; path = BaramInputMethodKit/BIMTrigger.h; sourceTree = "<group>"; };
+		5168D8CB11FDEB2900B56A16 /* BIMTrigger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIMTrigger.m; path = BaramInputMethodKit/BIMTrigger.m; sourceTree = "<group>"; };
+		5171AA851084CA37009C3F81 /* SRKeyCodeTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRKeyCodeTransformer.h; path = BaramPreferences/SRKeyCodeTransformer.h; sourceTree = "<group>"; };
+		5171AA861084CA37009C3F81 /* SRKeyCodeTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRKeyCodeTransformer.m; path = BaramPreferences/SRKeyCodeTransformer.m; sourceTree = "<group>"; };
+		5174E6AF10848A9C00468B92 /* ShortcutRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShortcutRecorder.h; path = BaramPreferences/ShortcutRecorder.h; sourceTree = "<group>"; };
+		5174E6B010848A9C00468B92 /* ShortcutRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShortcutRecorder.m; path = BaramPreferences/ShortcutRecorder.m; sourceTree = "<group>"; };
+		51757AAB1054CC0C00453C30 /* BaramPreferences.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaramPreferences.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51757ABA1054CCD400453C30 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BaramPreferences/Info.plist; sourceTree = "<group>"; };
+		51757ACC1054CD4F00453C30 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BaramPreferences/main.m; sourceTree = "<group>"; };
+		51757B011054CFE300453C30 /* BPController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPController.h; path = BaramPreferences/BPController.h; sourceTree = "<group>"; };
+		51757B021054CFE300453C30 /* BPController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BPController.m; path = BaramPreferences/BPController.m; sourceTree = "<group>"; };
+		51757B361054D46000453C30 /* BPDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BPDelegate.h; path = BaramPreferences/BPDelegate.h; sourceTree = "<group>"; };
+		51757B371054D46000453C30 /* BPDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BPDelegate.m; path = BaramPreferences/BPDelegate.m; sourceTree = "<group>"; };
+		51757B9F1054D90300453C30 /* Advanced.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Advanced.tiff; sourceTree = "<group>"; };
+		51757BA01054D90300453C30 /* Dictionary.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Dictionary.tiff; sourceTree = "<group>"; };
+		51757BA11054D90300453C30 /* General.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = General.tiff; sourceTree = "<group>"; };
+		51757BA21054D90300453C30 /* Trigger.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Trigger.tiff; sourceTree = "<group>"; };
+		51757BA91054D93900453C30 /* Application.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Application.tiff; sourceTree = "<group>"; };
+		51757BAA1054D93900453C30 /* Update.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Update.tiff; sourceTree = "<group>"; };
+		5183E234127EAC37006D8E0B /* uninstall.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = uninstall.sh; path = scripts/uninstall.sh; sourceTree = "<group>"; };
+		5185F1AA1067B9530042EF88 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = BaramDictionary/English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5185F1AD1067B9640042EF88 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = BaramDictionary/English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		519109D3120EFF2E00E31A2A /* Korean */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Korean; path = BaramDictionary/Korean.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		519109D4120EFF4400E31A2A /* Korean */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Korean; path = BaramDictionary/Korean.lproj/Localizable.strings; sourceTree = "<group>"; };
+		519862081070DB85005EE00F /* BRClientWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BRClientWrapper.h; path = BaramInputMethodKit/BRClientWrapper.h; sourceTree = "<group>"; };
+		519862091070DB85005EE00F /* BRClientWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BRClientWrapper.m; path = BaramInputMethodKit/BRClientWrapper.m; sourceTree = "<group>"; };
+		51A3C2DC1068C404009377AA /* BIMModeIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIMModeIndicator.h; path = BaramInputMethodKit/BIMModeIndicator.h; sourceTree = "<group>"; };
+		51A3C2DD1068C404009377AA /* BIMModeIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIMModeIndicator.m; path = BaramInputMethodKit/BIMModeIndicator.m; sourceTree = "<group>"; };
+		51A3C2FC1068C472009377AA /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		51BEF8B31067B5E5006AA5D6 /* BaramDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaramDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BEF8C91067B66B006AA5D6 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = BaramDictionary/AppController.h; sourceTree = "<group>"; };
+		51BEF8CA1067B66B006AA5D6 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = BaramDictionary/AppController.m; sourceTree = "<group>"; };
+		51BEF8CB1067B66B006AA5D6 /* DictionaryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DictionaryManager.h; path = BaramDictionary/DictionaryManager.h; sourceTree = "<group>"; };
+		51BEF8CC1067B66B006AA5D6 /* DictionaryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DictionaryManager.m; path = BaramDictionary/DictionaryManager.m; sourceTree = "<group>"; };
+		51BEF8D01067B687006AA5D6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BaramDictionary/main.m; sourceTree = "<group>"; };
+		51BEF8D31067B6BB006AA5D6 /* BaramDictionary.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = BaramDictionary.icns; path = BaramDictionary/BaramDictionary.icns; sourceTree = "<group>"; };
+		51BEF8D41067B6BB006AA5D6 /* General.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = General.png; path = BaramDictionary/General.png; sourceTree = "<group>"; };
+		51BEF8D61067B6BB006AA5D6 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		51BEF8D71067B6BB006AA5D6 /* Locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Locked.png; sourceTree = "<group>"; };
+		51BEF8E41067B6BB006AA5D6 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
+		51C30F72120719E800ABA614 /* BIMServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIMServer.h; path = BaramInputMethodKit/BIMServer.h; sourceTree = "<group>"; };
+		51C30F73120719E800ABA614 /* BIMServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIMServer.m; path = BaramInputMethodKit/BIMServer.m; sourceTree = "<group>"; };
+		51C30F7B12071D9600ABA614 /* UserDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = UserDefaults.plist; path = BaramInputMethodKit/UserDefaults.plist; sourceTree = "<group>"; };
+		51DDE848106E09D200B8BAC3 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		51F0676C10560BFC0097F4AE /* BIMUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIMUserDefaults.h; path = common/BIMUserDefaults.h; sourceTree = "<group>"; };
+		51F0676D10560BFC0097F4AE /* BIMUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIMUserDefaults.m; path = common/BIMUserDefaults.m; sourceTree = "<group>"; };
+		51F0F86E1209B1ED0085732E /* Korean */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Korean; path = BaramInputMethodKit/Korean.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		51F0F86F1209B1ED0085732E /* Korean */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Korean; path = BaramInputMethodKit/Korean.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		51F0F8831209B21D0085732E /* Korean */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = Korean; path = BaramPreferences/Korean.lproj/Localizable.strings; sourceTree = "<group>"; };
+		51F0F8851209B21D0085732E /* Korean */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Korean; path = BaramPreferences/Korean.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		51F0F8871209B21D0085732E /* Korean */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Korean; path = BaramPreferences/Korean.lproj/Preferences.xib; sourceTree = "<group>"; };
+		5907F2310EA0784400C6A249 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Frameworks/Sparkle/Sparkle.framework; sourceTree = "<group>"; };
+		593598000E9B3D3100599BDA /* BaramUpdater.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = BaramUpdater.icns; path = BaramUpdater/BaramUpdater.icns; sourceTree = "<group>"; };
+		593975530E1B11A1001E0BAA /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = BaramUpdater/English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5954DBE70EB15B4B004AD5CA /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		59738C8C0E2B043800503A73 /* ApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplicationDelegate.h; path = BaramInputMethodKit/ApplicationDelegate.h; sourceTree = "<group>"; };
+		59738C8D0E2B043800503A73 /* ApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplicationDelegate.m; path = BaramInputMethodKit/ApplicationDelegate.m; sourceTree = "<group>"; };
+		59738C8E0E2B043800503A73 /* BaramHanjaTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaramHanjaTable.h; path = BaramInputMethodKit/BaramHanjaTable.h; sourceTree = "<group>"; };
+		59738C8F0E2B043800503A73 /* BaramHanjaTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaramHanjaTable.m; path = BaramInputMethodKit/BaramHanjaTable.m; sourceTree = "<group>"; };
+		59738C900E2B043800503A73 /* DictionaryEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DictionaryEngine.h; path = BaramInputMethodKit/DictionaryEngine.h; sourceTree = "<group>"; };
+		59738C910E2B043800503A73 /* DictionaryEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DictionaryEngine.m; path = BaramInputMethodKit/DictionaryEngine.m; sourceTree = "<group>"; };
+		59738C920E2B043800503A73 /* InputController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputController.h; path = BaramInputMethodKit/InputController.h; sourceTree = "<group>"; };
+		59738C930E2B043800503A73 /* InputController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InputController.m; path = BaramInputMethodKit/InputController.m; sourceTree = "<group>"; };
+		597A81A30EB1994A000E84B1 /* FilenameFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilenameFormatter.h; path = FilenameFormatter/FilenameFormatter.h; sourceTree = "<group>"; };
+		597A81A40EB1994A000E84B1 /* FilenameFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FilenameFormatter.m; path = FilenameFormatter/FilenameFormatter.m; sourceTree = "<group>"; };
+		59842F990E15D70900B268B7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BaramInputMethodKit/main.m; sourceTree = "<group>"; };
+		59842FA30E15D78200B268B7 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = BaramInputMethodKit/English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59842FA50E15D78200B268B7 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = BaramInputMethodKit/English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		59842FD40E15DD3900B268B7 /* baram.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = baram.icns; path = BaramInputMethodKit/baram.icns; sourceTree = "<group>"; };
+		59842FD50E15DD3900B268B7 /* baram.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = baram.tiff; path = BaramInputMethodKit/baram.tiff; sourceTree = "<group>"; };
+		59842FD60E15DD3900B268B7 /* Baram_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Baram_Prefix.pch; path = BaramInputMethodKit/Baram_Prefix.pch; sourceTree = "<group>"; };
+		59842FD70E15DD3900B268B7 /* english.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = english.tiff; path = BaramInputMethodKit/english.tiff; sourceTree = "<group>"; };
+		59842FD80E15DD3900B268B7 /* hangul.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = hangul.tiff; path = BaramInputMethodKit/hangul.tiff; sourceTree = "<group>"; };
+		59842FDA0E15DD3900B268B7 /* hiragana.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = hiragana.tiff; path = BaramInputMethodKit/hiragana.tiff; sourceTree = "<group>"; };
+		59842FDB0E15DD3900B268B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BaramInputMethodKit/Info.plist; sourceTree = "<group>"; };
+		59842FDC0E15DD3900B268B7 /* katakana.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = katakana.tiff; path = BaramInputMethodKit/katakana.tiff; sourceTree = "<group>"; };
+		599528BD0E1B0B5100D375CB /* BaramUpdater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaramUpdater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5995290C0E1B0D7A00D375CB /* UpdaterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UpdaterController.h; path = BaramUpdater/UpdaterController.h; sourceTree = "<group>"; };
+		5995290D0E1B0D7A00D375CB /* UpdaterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UpdaterController.m; path = BaramUpdater/UpdaterController.m; sourceTree = "<group>"; };
+		5995290F0E1B0DE500D375CB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = BaramUpdater/main.m; sourceTree = "<group>"; };
+		599529110E1B0DF500D375CB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = BaramUpdater/Info.plist; sourceTree = "<group>"; };
+		59A249770DC7F1B600445EAC /* hangul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hangul.h; path = libhangul/hangul.h; sourceTree = "<group>"; };
+		59A249780DC7F1B600445EAC /* hangulctype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hangulctype.c; path = libhangul/hangulctype.c; sourceTree = "<group>"; };
+		59A249790DC7F1B600445EAC /* hangulinputcontext.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hangulinputcontext.c; path = libhangul/hangulinputcontext.c; sourceTree = "<group>"; };
+		59A2497A0DC7F1B600445EAC /* hangulinternals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hangulinternals.h; path = libhangul/hangulinternals.h; sourceTree = "<group>"; };
+		59A2497B0DC7F1B600445EAC /* hangulkeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hangulkeyboard.h; path = libhangul/hangulkeyboard.h; sourceTree = "<group>"; };
+		59A2497C0DC7F1B600445EAC /* hanja.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hanja.c; path = libhangul/hanja.c; sourceTree = "<group>"; };
+		59A2497D0DC7F1B600445EAC /* hanjacompatible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hanjacompatible.h; path = libhangul/hanjacompatible.h; sourceTree = "<group>"; };
+		59A2498A0DC7F22600445EAC /* InputMethodKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InputMethodKit.framework; path = /System/Library/Frameworks/InputMethodKit.framework; sourceTree = "<absolute>"; };
+		59BF8C1A0E937C9D00C8673B /* DBPrefsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBPrefsWindowController.h; path = DBPrefs/DBPrefsWindowController.h; sourceTree = "<group>"; };
+		59BF8C1B0E937C9D00C8673B /* DBPrefsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBPrefsWindowController.m; path = DBPrefs/DBPrefsWindowController.m; sourceTree = "<group>"; };
+		59C69BF70E1B2CBC00C28698 /* Korean */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Korean; path = BaramUpdater/Korean.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		59EEDBEC0EB1AF420068740C /* FileIconTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileIconTransformer.h; path = FilenameFormatter/FileIconTransformer.h; sourceTree = "<group>"; };
+		59EEDBED0EB1AF420068740C /* FileIconTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileIconTransformer.m; path = FilenameFormatter/FileIconTransformer.m; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Baram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45A5874127B99950050EEA5 /* Korean */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Korean; path = BaramAbout/Korean.lproj/AboutWindow.xib; sourceTree = "<group>"; };
+		D45A5875127B99950050EEA5 /* Korean */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Korean; path = BaramAbout/Korean.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D45A587F127B99D50050EEA5 /* Korean */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Korean; path = BaramAbout/Korean.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D4A63AF8127C6D1800293E4D /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = BaramPreferences/English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D4A63AF9127C6D1800293E4D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = BaramPreferences/English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D4A63AFA127C6D1800293E4D /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = BaramPreferences/English.lproj/Preferences.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		511F621C1203D58B00AC8B62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5156420B10564EA50077970B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51757AA91054CC0C00453C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5171AAB41084CBC5009C3F81 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BEF8B11067B5E5006AA5D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599528BB0E1B0B5100D375CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5939757D0E1B1323001E0BAA /* Cocoa.framework in Frameworks */,
+				5907F2320EA0784400C6A249 /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51DDE92C106E0B6900B8BAC3 /* Carbon.framework in Frameworks */,
+				51DDE838106E061F00B8BAC3 /* Quartz.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				59A2498B0DC7F22600445EAC /* InputMethodKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51DDE848106E09D200B8BAC3 /* ApplicationServices.framework */,
+				51A3C2FC1068C472009377AA /* Quartz.framework */,
+				5954DBE70EB15B4B004AD5CA /* Carbon.framework */,
+				5907F2310EA0784400C6A249 /* Sparkle.framework */,
+				59A2498A0DC7F22600445EAC /* InputMethodKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Baram.app */,
+				599528BD0E1B0B5100D375CB /* BaramUpdater.app */,
+				51757AAB1054CC0C00453C30 /* BaramPreferences.app */,
+				5156420D10564EA50077970B /* BaramRemapper */,
+				51BEF8B31067B5E5006AA5D6 /* BaramDictionary.app */,
+				511F621E1203D58B00AC8B62 /* BaramAbout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Baram */ = {
+			isa = PBXGroup;
+			children = (
+				51C30F6D120718E500ABA614 /* Input Method */,
+				51C30F6C120718BF00ABA614 /* Updater */,
+				51C30F6B1207188E00ABA614 /* Preferences */,
+				51C30F6A1207186800ABA614 /* Remapper */,
+				51C30F691207183800ABA614 /* Dictionary */,
+				51C30F68120717FE00ABA614 /* About */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Baram;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				515CE1E11055273C00514BBA /* Common */,
+				597A81A20EB19930000E84B1 /* FilenameFormatter */,
+				59BF8C150E937C1C00C8673B /* DBPrefs */,
+				598430600E15E07800B268B7 /* libhangul */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		511F620C1203D54500AC8B62 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				511F62411203D7F900AC8B62 /* BADelegate.h */,
+				511F62421203D7F900AC8B62 /* BADelegate.m */,
+				511F623B1203D6D800AC8B62 /* AboutWindowController.h */,
+				511F623C1203D6D800AC8B62 /* AboutWindowController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		511F620D1203D55100AC8B62 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				511F62341203D61700AC8B62 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		511F62311203D5C600AC8B62 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				511F62C51203E2B000AC8B62 /* Localizable.strings */,
+				511F62441203D80800AC8B62 /* MainMenu.xib */,
+				511F623E1203D71A00AC8B62 /* AboutWindow.xib */,
+				511F62321203D5D500AC8B62 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		512EA35B10620E5E0099FBC4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51633090121C30160068C141 /* EnableAccessibilityAPI.app */,
+				512EA38C10620ED10099FBC4 /* BaramRemapper.sh */,
+				512EA38D10620ED10099FBC4 /* kr.or.baram.BaramRemapper.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5156421610564EDE0077970B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5108486F1059E8F40038D787 /* BRServer.h */,
+				510848701059E8F40038D787 /* BRServer.m */,
+				510848861059EB1C0038D787 /* BRClientProtocol.h */,
+				510848BD1059FD360038D787 /* BRServerProtocol.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		5156421710564EE70077970B /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5156422310564FB30077970B /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		515CE1E11055273C00514BBA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				51F0676C10560BFC0097F4AE /* BIMUserDefaults.h */,
+				51F0676D10560BFC0097F4AE /* BIMUserDefaults.m */,
+				515CE1E21055275A00514BBA /* BIMConstants.h */,
+				515CE1E31055275A00514BBA /* BIMConstants.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		51757AB11054CC2B00453C30 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5171AA851084CA37009C3F81 /* SRKeyCodeTransformer.h */,
+				5171AA861084CA37009C3F81 /* SRKeyCodeTransformer.m */,
+				5174E6AF10848A9C00468B92 /* ShortcutRecorder.h */,
+				5174E6B010848A9C00468B92 /* ShortcutRecorder.m */,
+				51757B361054D46000453C30 /* BPDelegate.h */,
+				51757B371054D46000453C30 /* BPDelegate.m */,
+				51757B011054CFE300453C30 /* BPController.h */,
+				51757B021054CFE300453C30 /* BPController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		51757AB21054CC3F00453C30 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51F0F8821209B21D0085732E /* Localizable.strings */,
+				51F0F8841209B21D0085732E /* MainMenu.xib */,
+				51F0F8861209B21D0085732E /* Preferences.xib */,
+				51757B9E1054D90300453C30 /* icons */,
+				51757ABA1054CCD400453C30 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		51757AB31054CC4C00453C30 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				51757ACC1054CD4F00453C30 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		51757B9E1054D90300453C30 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				5143AFD91061C076009FDDB0 /* Shortcuts.tiff */,
+				51757BA91054D93900453C30 /* Application.tiff */,
+				51757BAA1054D93900453C30 /* Update.tiff */,
+				51757B9F1054D90300453C30 /* Advanced.tiff */,
+				51757BA01054D90300453C30 /* Dictionary.tiff */,
+				51757BA11054D90300453C30 /* General.tiff */,
+				51757BA21054D90300453C30 /* Trigger.tiff */,
+			);
+			name = icons;
+			path = BaramPreferences/icons;
+			sourceTree = "<group>";
+		};
+		51BEF8C81067B64C006AA5D6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				51BEF8C91067B66B006AA5D6 /* AppController.h */,
+				51BEF8CA1067B66B006AA5D6 /* AppController.m */,
+				51BEF8CB1067B66B006AA5D6 /* DictionaryManager.h */,
+				51BEF8CC1067B66B006AA5D6 /* DictionaryManager.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		51BEF8CF1067B678006AA5D6 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				51BEF8D01067B687006AA5D6 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		51BEF8D21067B68E006AA5D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5185F1AC1067B9640042EF88 /* MainMenu.xib */,
+				5185F1A91067B9530042EF88 /* Localizable.strings */,
+				51BEF8D31067B6BB006AA5D6 /* BaramDictionary.icns */,
+				51BEF8D41067B6BB006AA5D6 /* General.png */,
+				51BEF8D51067B6BB006AA5D6 /* icons */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		51BEF8D51067B6BB006AA5D6 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				51BEF8D61067B6BB006AA5D6 /* green.png */,
+				51BEF8D71067B6BB006AA5D6 /* Locked.png */,
+				51BEF8E41067B6BB006AA5D6 /* yellow.png */,
+			);
+			name = icons;
+			path = BaramDictionary/icons;
+			sourceTree = "<group>";
+		};
+		51C30F68120717FE00ABA614 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				511F62311203D5C600AC8B62 /* Resources */,
+				511F620D1203D55100AC8B62 /* Other Sources */,
+				511F620C1203D54500AC8B62 /* Classes */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		51C30F691207183800ABA614 /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				51BEF8D21067B68E006AA5D6 /* Resources */,
+				51BEF8CF1067B678006AA5D6 /* Other Sources */,
+				51BEF8C81067B64C006AA5D6 /* Classes */,
+			);
+			name = Dictionary;
+			sourceTree = "<group>";
+		};
+		51C30F6A1207186800ABA614 /* Remapper */ = {
+			isa = PBXGroup;
+			children = (
+				512EA35B10620E5E0099FBC4 /* Resources */,
+				5156421710564EE70077970B /* Other Sources */,
+				5156421610564EDE0077970B /* Classes */,
+			);
+			name = Remapper;
+			sourceTree = "<group>";
+		};
+		51C30F6B1207188E00ABA614 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				51757AB21054CC3F00453C30 /* Resources */,
+				51757AB31054CC4C00453C30 /* Other Sources */,
+				51757AB11054CC2B00453C30 /* Classes */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		51C30F6C120718BF00ABA614 /* Updater */ = {
+			isa = PBXGroup;
+			children = (
+				599528CC0E1B0B7C00D375CB /* Other Sources */,
+				599528CB0E1B0B7300D375CB /* Resources */,
+				599528B80E1B0B2A00D375CB /* Classes */,
+			);
+			name = Updater;
+			sourceTree = "<group>";
+		};
+		51C30F6D120718E500ABA614 /* Input Method */ = {
+			isa = PBXGroup;
+			children = (
+				598430130E15DF0700B268B7 /* Resources */,
+				598430080E15DE8800B268B7 /* Other Sources */,
+				598430000E15DE4300B268B7 /* Classes */,
+			);
+			name = "Input Method";
+			sourceTree = "<group>";
+		};
+		59194BDA0E15E88300EDCEE5 /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		5925C5C40DC7FFC7009B942E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				59842FD50E15DD3900B268B7 /* baram.tiff */,
+				59842FD70E15DD3900B268B7 /* english.tiff */,
+				59842FD80E15DD3900B268B7 /* hangul.tiff */,
+				59842FDA0E15DD3900B268B7 /* hiragana.tiff */,
+				59842FDC0E15DD3900B268B7 /* katakana.tiff */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		597A81A20EB19930000E84B1 /* FilenameFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				59EEDBEC0EB1AF420068740C /* FileIconTransformer.h */,
+				59EEDBED0EB1AF420068740C /* FileIconTransformer.m */,
+				597A81A30EB1994A000E84B1 /* FilenameFormatter.h */,
+				597A81A40EB1994A000E84B1 /* FilenameFormatter.m */,
+			);
+			name = FilenameFormatter;
+			sourceTree = "<group>";
+		};
+		598430000E15DE4300B268B7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				51C30F72120719E800ABA614 /* BIMServer.h */,
+				51C30F73120719E800ABA614 /* BIMServer.m */,
+				5168D8B511FCA04B00B56A16 /* BaramHangul.h */,
+				5168D8B611FCA04B00B56A16 /* BaramHangul.m */,
+				51A3C2DC1068C404009377AA /* BIMModeIndicator.h */,
+				51A3C2DD1068C404009377AA /* BIMModeIndicator.m */,
+				511B7ABF10631745001A34B3 /* JapaneseEngine.h */,
+				511B7AC010631745001A34B3 /* JapaneseEngine.m */,
+				59738C8C0E2B043800503A73 /* ApplicationDelegate.h */,
+				59738C8D0E2B043800503A73 /* ApplicationDelegate.m */,
+				59738C8E0E2B043800503A73 /* BaramHanjaTable.h */,
+				59738C8F0E2B043800503A73 /* BaramHanjaTable.m */,
+				59738C900E2B043800503A73 /* DictionaryEngine.h */,
+				59738C910E2B043800503A73 /* DictionaryEngine.m */,
+				59738C920E2B043800503A73 /* InputController.h */,
+				59738C930E2B043800503A73 /* InputController.m */,
+				519862081070DB85005EE00F /* BRClientWrapper.h */,
+				519862091070DB85005EE00F /* BRClientWrapper.m */,
+				5168D8CA11FDEB2900B56A16 /* BIMTrigger.h */,
+				5168D8CB11FDEB2900B56A16 /* BIMTrigger.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		598430080E15DE8800B268B7 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				59842F990E15D70900B268B7 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		598430130E15DF0700B268B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5183E234127EAC37006D8E0B /* uninstall.sh */,
+				51C30F7B12071D9600ABA614 /* UserDefaults.plist */,
+				59194BDA0E15E88300EDCEE5 /* data */,
+				59842FD40E15DD3900B268B7 /* baram.icns */,
+				59842FD60E15DD3900B268B7 /* Baram_Prefix.pch */,
+				59842FDB0E15DD3900B268B7 /* Info.plist */,
+				59842FA20E15D78200B268B7 /* InfoPlist.strings */,
+				59842FA40E15D78200B268B7 /* MainMenu.xib */,
+				5925C5C40DC7FFC7009B942E /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		598430600E15E07800B268B7 /* libhangul */ = {
+			isa = PBXGroup;
+			children = (
+				59A2497C0DC7F1B600445EAC /* hanja.c */,
+				59A249780DC7F1B600445EAC /* hangulctype.c */,
+				59A249790DC7F1B600445EAC /* hangulinputcontext.c */,
+				59A2497A0DC7F1B600445EAC /* hangulinternals.h */,
+				59A249770DC7F1B600445EAC /* hangul.h */,
+				59A2497B0DC7F1B600445EAC /* hangulkeyboard.h */,
+				59A2497D0DC7F1B600445EAC /* hanjacompatible.h */,
+			);
+			name = libhangul;
+			sourceTree = "<group>";
+		};
+		599528B80E1B0B2A00D375CB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5995290C0E1B0D7A00D375CB /* UpdaterController.h */,
+				5995290D0E1B0D7A00D375CB /* UpdaterController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		599528CB0E1B0B7300D375CB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				593598000E9B3D3100599BDA /* BaramUpdater.icns */,
+				593975520E1B11A1001E0BAA /* MainMenu.xib */,
+				599529110E1B0DF500D375CB /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		599528CC0E1B0B7C00D375CB /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5995290F0E1B0DE500D375CB /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		59BF8C150E937C1C00C8673B /* DBPrefs */ = {
+			isa = PBXGroup;
+			children = (
+				59BF8C1A0E937C9D00C8673B /* DBPrefsWindowController.h */,
+				59BF8C1B0E937C9D00C8673B /* DBPrefsWindowController.m */,
+			);
+			name = DBPrefs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		511F621D1203D58B00AC8B62 /* BaramAbout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 511F62231203D58B00AC8B62 /* Build configuration list for PBXNativeTarget "BaramAbout" */;
+			buildPhases = (
+				511F621A1203D58B00AC8B62 /* Resources */,
+				511F621B1203D58B00AC8B62 /* Sources */,
+				511F621C1203D58B00AC8B62 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaramAbout;
+			productName = BaramAbout;
+			productReference = 511F621E1203D58B00AC8B62 /* BaramAbout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5156420C10564EA50077970B /* BaramRemapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5156421510564EB10077970B /* Build configuration list for PBXNativeTarget "BaramRemapper" */;
+			buildPhases = (
+				5156420A10564EA50077970B /* Sources */,
+				5156420B10564EA50077970B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaramRemapper;
+			productName = BaramRemapper;
+			productReference = 5156420D10564EA50077970B /* BaramRemapper */;
+			productType = "com.apple.product-type.tool";
+		};
+		51757AAA1054CC0C00453C30 /* BaramPreferences */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51757AB01054CC0C00453C30 /* Build configuration list for PBXNativeTarget "BaramPreferences" */;
+			buildPhases = (
+				51757AA71054CC0C00453C30 /* Resources */,
+				51757AA81054CC0C00453C30 /* Sources */,
+				51757AA91054CC0C00453C30 /* Frameworks */,
+				51757AFE1054CF7B00453C30 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaramPreferences;
+			productName = BaramPreference;
+			productReference = 51757AAB1054CC0C00453C30 /* BaramPreferences.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51BEF8B21067B5E5006AA5D6 /* BaramDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51BEF8B81067B5E6006AA5D6 /* Build configuration list for PBXNativeTarget "BaramDictionary" */;
+			buildPhases = (
+				51BEF8AF1067B5E5006AA5D6 /* Resources */,
+				51BEF8B01067B5E5006AA5D6 /* Sources */,
+				51BEF8B11067B5E5006AA5D6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaramDictionary;
+			productName = BaramDictionary;
+			productReference = 51BEF8B31067B5E5006AA5D6 /* BaramDictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		599528BC0E1B0B5100D375CB /* BaramUpdater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599528C20E1B0B5100D375CB /* Build configuration list for PBXNativeTarget "BaramUpdater" */;
+			buildPhases = (
+				599528B90E1B0B5100D375CB /* Resources */,
+				599528BA0E1B0B5100D375CB /* Sources */,
+				599528BB0E1B0B5100D375CB /* Frameworks */,
+				599528FE0E1B0C0200D375CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaramUpdater;
+			productName = BaramUpdater;
+			productReference = 599528BD0E1B0B5100D375CB /* BaramUpdater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D1107260486CEB800E47090 /* Baram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Baram" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				598430A20E15E39300B268B7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51BEF8BC1067B5FA006AA5D6 /* PBXTargetDependency */,
+				51757AB71054CC6C00453C30 /* PBXTargetDependency */,
+				51757AB91054CC7300453C30 /* PBXTargetDependency */,
+				511F62F41203E95100AC8B62 /* PBXTargetDependency */,
+				51084910105A04ED0038D787 /* PBXTargetDependency */,
+			);
+			name = Baram;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Baram;
+			productReference = 8D1107320486CEB800E47090 /* Baram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				ORGANIZATIONNAME = Baram.or.kr;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Baram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Korean,
+				ko,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Baram */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59194BED0E15E99400EDCEE5 /* all */,
+				8D1107260486CEB800E47090 /* Baram */,
+				599528BC0E1B0B5100D375CB /* BaramUpdater */,
+				51757AAA1054CC0C00453C30 /* BaramPreferences */,
+				5156420C10564EA50077970B /* BaramRemapper */,
+				51BEF8B21067B5E5006AA5D6 /* BaramDictionary */,
+				511F621D1203D58B00AC8B62 /* BaramAbout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		511F621A1203D58B00AC8B62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511F628E1203DD4900AC8B62 /* baram.icns in Resources */,
+				511F62401203D71A00AC8B62 /* AboutWindow.xib in Resources */,
+				511F62461203D80800AC8B62 /* MainMenu.xib in Resources */,
+				511F62C71203E2B000AC8B62 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51757AA71054CC0C00453C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51757BA31054D90300453C30 /* Advanced.tiff in Resources */,
+				51757BA41054D90300453C30 /* Dictionary.tiff in Resources */,
+				51757BA51054D90300453C30 /* General.tiff in Resources */,
+				51757BA61054D90300453C30 /* Trigger.tiff in Resources */,
+				51757BAB1054D93900453C30 /* Application.tiff in Resources */,
+				51757BAC1054D93900453C30 /* Update.tiff in Resources */,
+				5143AFDA1061C076009FDDB0 /* Shortcuts.tiff in Resources */,
+				51F0F8881209B21D0085732E /* Localizable.strings in Resources */,
+				51F0F8891209B21D0085732E /* MainMenu.xib in Resources */,
+				51F0F88A1209B21D0085732E /* Preferences.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BEF8AF1067B5E5006AA5D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BEF8E51067B6BB006AA5D6 /* BaramDictionary.icns in Resources */,
+				51BEF8E61067B6BB006AA5D6 /* General.png in Resources */,
+				51BEF8E71067B6BB006AA5D6 /* green.png in Resources */,
+				51BEF8E81067B6BB006AA5D6 /* Locked.png in Resources */,
+				51BEF8F51067B6BB006AA5D6 /* yellow.png in Resources */,
+				5185F1AB1067B9530042EF88 /* Localizable.strings in Resources */,
+				5185F1AE1067B9640042EF88 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599528B90E1B0B5100D375CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593975540E1B11A1001E0BAA /* MainMenu.xib in Resources */,
+				593598010E9B3D3100599BDA /* BaramUpdater.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59842FA90E15D78200B268B7 /* MainMenu.xib in Resources */,
+				59842FDE0E15DD3900B268B7 /* baram.icns in Resources */,
+				59842FDF0E15DD3900B268B7 /* baram.tiff in Resources */,
+				59842FE00E15DD3900B268B7 /* english.tiff in Resources */,
+				59842FE10E15DD3900B268B7 /* hangul.tiff in Resources */,
+				59842FE30E15DD3900B268B7 /* hiragana.tiff in Resources */,
+				59842FE50E15DD3900B268B7 /* katakana.tiff in Resources */,
+				511F62331203D5D500AC8B62 /* Info.plist in Resources */,
+				51C30F7C12071D9600ABA614 /* UserDefaults.plist in Resources */,
+				D4885BB1128B135800FA079C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		511F621B1203D58B00AC8B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511F62351203D61700AC8B62 /* main.m in Sources */,
+				511F623D1203D6D800AC8B62 /* AboutWindowController.m in Sources */,
+				511F62431203D7F900AC8B62 /* BADelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5156420A10564EA50077970B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5156421910564F020077970B /* BIMConstants.m in Sources */,
+				5156421B10564F020077970B /* BIMUserDefaults.m in Sources */,
+				5156422410564FB30077970B /* main.m in Sources */,
+				510848711059E8F40038D787 /* BRServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51757AA81054CC0C00453C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51757B081054D06900453C30 /* FileIconTransformer.m in Sources */,
+				51757B091054D06900453C30 /* FilenameFormatter.m in Sources */,
+				51757B071054D03300453C30 /* DBPrefsWindowController.m in Sources */,
+				51757ACD1054CD4F00453C30 /* main.m in Sources */,
+				51757B031054CFE300453C30 /* BPController.m in Sources */,
+				51757B381054D46000453C30 /* BPDelegate.m in Sources */,
+				515CE1E41055275A00514BBA /* BIMConstants.m in Sources */,
+				51F0676E10560BFC0097F4AE /* BIMUserDefaults.m in Sources */,
+				5174E6B110848A9C00468B92 /* ShortcutRecorder.m in Sources */,
+				5171AA871084CA37009C3F81 /* SRKeyCodeTransformer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BEF8B01067B5E5006AA5D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BEF8FA1067B735006AA5D6 /* FilenameFormatter.m in Sources */,
+				51BEF8F91067B71A006AA5D6 /* BIMConstants.m in Sources */,
+				51BEF8CD1067B66B006AA5D6 /* AppController.m in Sources */,
+				51BEF8CE1067B66B006AA5D6 /* DictionaryManager.m in Sources */,
+				51BEF8D11067B687006AA5D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599528BA0E1B0B5100D375CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511226841062216000CF5A3A /* BIMUserDefaults.m in Sources */,
+				5995290E0E1B0D7A00D375CB /* UpdaterController.m in Sources */,
+				599529100E1B0DE500D375CB /* main.m in Sources */,
+				515CE1E71055275A00514BBA /* BIMConstants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5168D98C11FE928200B56A16 /* BaramHangul.m in Sources */,
+				59A2497E0DC7F1B600445EAC /* hangulctype.c in Sources */,
+				59A2497F0DC7F1B600445EAC /* hangulinputcontext.c in Sources */,
+				59A249800DC7F1B600445EAC /* hanja.c in Sources */,
+				59842FA00E15D70900B268B7 /* main.m in Sources */,
+				59738C960E2B043800503A73 /* ApplicationDelegate.m in Sources */,
+				59738C970E2B043800503A73 /* BaramHanjaTable.m in Sources */,
+				59738C980E2B043800503A73 /* DictionaryEngine.m in Sources */,
+				59738C990E2B043800503A73 /* InputController.m in Sources */,
+				515CE1E51055275A00514BBA /* BIMConstants.m in Sources */,
+				511B7AC110631745001A34B3 /* JapaneseEngine.m in Sources */,
+				51A3C2DE1068C404009377AA /* BIMModeIndicator.m in Sources */,
+				5198620A1070DB85005EE00F /* BRClientWrapper.m in Sources */,
+				5168D8CC11FDEB2900B56A16 /* BIMTrigger.m in Sources */,
+				51C30F74120719E800ABA614 /* BIMServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51084910105A04ED0038D787 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5156420C10564EA50077970B /* BaramRemapper */;
+			targetProxy = 5108490F105A04ED0038D787 /* PBXContainerItemProxy */;
+		};
+		511F62F41203E95100AC8B62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 511F621D1203D58B00AC8B62 /* BaramAbout */;
+			targetProxy = 511F62F31203E95100AC8B62 /* PBXContainerItemProxy */;
+		};
+		51757AB71054CC6C00453C30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 599528BC0E1B0B5100D375CB /* BaramUpdater */;
+			targetProxy = 51757AB61054CC6C00453C30 /* PBXContainerItemProxy */;
+		};
+		51757AB91054CC7300453C30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51757AAA1054CC0C00453C30 /* BaramPreferences */;
+			targetProxy = 51757AB81054CC7300453C30 /* PBXContainerItemProxy */;
+		};
+		51BEF8BC1067B5FA006AA5D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51BEF8B21067B5E5006AA5D6 /* BaramDictionary */;
+			targetProxy = 51BEF8BB1067B5FA006AA5D6 /* PBXContainerItemProxy */;
+		};
+		59194BF30E15E99D00EDCEE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1107260486CEB800E47090 /* Baram */;
+			targetProxy = 59194BF20E15E99D00EDCEE5 /* PBXContainerItemProxy */;
+		};
+		599528CF0E1B0B9E00D375CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 599528BC0E1B0B5100D375CB /* BaramUpdater */;
+			targetProxy = 599528CE0E1B0B9E00D375CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		511F623E1203D71A00AC8B62 /* AboutWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				511F623F1203D71A00AC8B62 /* English */,
+				D45A5874127B99950050EEA5 /* Korean */,
+			);
+			name = AboutWindow.xib;
+			sourceTree = "<group>";
+		};
+		511F62441203D80800AC8B62 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				511F62451203D80800AC8B62 /* English */,
+				D45A5875127B99950050EEA5 /* Korean */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		511F62C51203E2B000AC8B62 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				511F62C61203E2B000AC8B62 /* English */,
+				D45A587F127B99D50050EEA5 /* Korean */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		5185F1A91067B9530042EF88 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5185F1AA1067B9530042EF88 /* English */,
+				519109D4120EFF4400E31A2A /* Korean */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		5185F1AC1067B9640042EF88 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5185F1AD1067B9640042EF88 /* English */,
+				519109D3120EFF2E00E31A2A /* Korean */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		51F0F8821209B21D0085732E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51F0F8831209B21D0085732E /* Korean */,
+				D4A63AF8127C6D1800293E4D /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		51F0F8841209B21D0085732E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51F0F8851209B21D0085732E /* Korean */,
+				D4A63AF9127C6D1800293E4D /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		51F0F8861209B21D0085732E /* Preferences.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51F0F8871209B21D0085732E /* Korean */,
+				D4A63AFA127C6D1800293E4D /* English */,
+			);
+			name = Preferences.xib;
+			sourceTree = "<group>";
+		};
+		593975520E1B11A1001E0BAA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				593975530E1B11A1001E0BAA /* English */,
+				59C69BF70E1B2CBC00C28698 /* Korean */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		59842FA20E15D78200B268B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59842FA30E15D78200B268B7 /* English */,
+				51F0F86E1209B1ED0085732E /* Korean */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		59842FA40E15D78200B268B7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59842FA50E15D78200B268B7 /* English */,
+				51F0F86F1209B1ED0085732E /* Korean */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		511F62211203D58B00AC8B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = BaramAbout/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = BaramAbout;
+			};
+			name = Debug;
+		};
+		511F62221203D58B00AC8B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = BaramAbout/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = BaramAbout;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		5156420F10564EA60077970B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = BaramRemapper;
+			};
+			name = Debug;
+		};
+		5156421010564EA60077970B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = BaramRemapper;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		51757AAE1054CC0C00453C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks/ShorcutRecorder\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = BaramPreferences/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = BaramPreference;
+			};
+			name = Debug;
+		};
+		51757AAF1054CC0C00453C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks/ShorcutRecorder\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = BaramPreferences/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = BaramPreferences;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		51BEF8B61067B5E6006AA5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = BaramDictionary/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = BaramDictionary;
+			};
+			name = Debug;
+		};
+		51BEF8B71067B5E6006AA5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = BaramDictionary/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = BaramDictionary;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		59194BEE0E15E99400EDCEE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = all;
+			};
+			name = Debug;
+		};
+		59194BEF0E15E99400EDCEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = all;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		599528C00E1B0B5100D375CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks/Sparkle\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = BaramUpdater/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = BaramUpdater;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		599528C10E1B0B5100D375CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks/Sparkle\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = BaramUpdater/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = BaramUpdater;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+					"\"$(SRCROOT)/Frameworks/ShorcutRecorder\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BaramInputMethodKit/Baram_Prefix.pch;
+				INFOPLIST_FILE = BaramInputMethodKit/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_CFLAGS = (
+					"-DDEBUG=1",
+					"-DLIBHANGUL_DEFAULT_HANJA_DIC=\"\\\"/Library/Dictionaries/Baram/hanja.all\\\"\"",
+				);
+				PRODUCT_NAME = Baram;
+				SDKROOT = macosx10.5;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+					"\"$(SRCROOT)/Frameworks/ShorcutRecorder\"",
+				);
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BaramInputMethodKit/Baram_Prefix.pch;
+				INFOPLIST_FILE = BaramInputMethodKit/Info.plist;
+				INSTALL_PATH = "/Library/Input Methods/";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "-DLIBHANGUL_DEFAULT_HANJA_DIC=\"\\\"/Library/Dictionaries/Baram/hanja.all\\\"\"";
+				PRODUCT_NAME = Baram;
+				SDKROOT = macosx10.5;
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DDEBUG=1";
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		511F62231203D58B00AC8B62 /* Build configuration list for PBXNativeTarget "BaramAbout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				511F62211203D58B00AC8B62 /* Debug */,
+				511F62221203D58B00AC8B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5156421510564EB10077970B /* Build configuration list for PBXNativeTarget "BaramRemapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5156420F10564EA60077970B /* Debug */,
+				5156421010564EA60077970B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51757AB01054CC0C00453C30 /* Build configuration list for PBXNativeTarget "BaramPreferences" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51757AAE1054CC0C00453C30 /* Debug */,
+				51757AAF1054CC0C00453C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51BEF8B81067B5E6006AA5D6 /* Build configuration list for PBXNativeTarget "BaramDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BEF8B61067B5E6006AA5D6 /* Debug */,
+				51BEF8B71067B5E6006AA5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59194BF80E15E9AF00EDCEE5 /* Build configuration list for PBXAggregateTarget "all" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59194BEE0E15E99400EDCEE5 /* Debug */,
+				59194BEF0E15E99400EDCEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		599528C20E1B0B5100D375CB /* Build configuration list for PBXNativeTarget "BaramUpdater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599528C00E1B0B5100D375CB /* Debug */,
+				599528C10E1B0B5100D375CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Baram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Baram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

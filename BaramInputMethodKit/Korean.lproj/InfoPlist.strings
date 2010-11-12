@@ -1,0 +1,16 @@
+﻿/* Localized versions of Info.plist keys */
+
+NSHumanReadableCopyright = "Copyright © 2008 정하영
+http://baram.or.kr
+이 프로그램은 어떠한 형태의 보증도 제공되지 않습니다. 이 프로그램은 자유 소프트웨어입니다. 이 프로그램은 배포 규정을 만족시키는 조건하에서 자유롭게 재배포될 수 있습니다.";
+
+kr.or.baram.inputmethod.Baram.english = "영어";
+kr.or.baram.inputmethod.Baram.hangul  = "한글";
+kr.or.baram.inputmethod.Baram.hanja   = "한자";
+kr.or.baram.inputmethod.Baram.hiragana = "히라가나";
+kr.or.baram.inputmethod.Baram.katakana = "가타카나";
+
+
+CFBundleName = "바람";
+CFBundleDisplayName = "바람";
+

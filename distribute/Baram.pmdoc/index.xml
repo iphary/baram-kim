@@ -1,0 +1,24 @@
+<pkmkdoc spec="1.12"><properties><title>Baram</title><build>/Users/sixt06/Documents/Baram.pkg</build><organization>kr.or.baram</organization><userSees ui="easy"/><min-target os="3"/><domain system="true"/></properties><distribution><versions min-spec="1.000000"/><scripts></scripts></distribution><contents><choice title="kr.or.baram.BaramRemapper" id="choice5" starts_selected="true" starts_enabled="true" starts_hidden="true"><pkgref id="kr.or.baram.BaramRemapper.pkg"/></choice><choice title="hanja" id="choice6" starts_selected="true" starts_enabled="true" starts_hidden="true"><pkgref id="kr.or.baram.baram.hanja.pkg"/></choice><choice title="mswin" id="choice7" starts_selected="true" starts_enabled="true" starts_hidden="true"><pkgref id="kr.or.baram.baram.mswin.pkg"/></choice><choice title="Baram" id="choice9" starts_selected="true" starts_enabled="true" starts_hidden="false"><pkgref id="kr.or.baram.baramInputMethodKit.pkg"/></choice></contents><resources bg-scale="none" bg-align="topleft"><locale lang="en"><resource mime-type="text/rtf" kind="embedded" type="welcome"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf320
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 Baram is an alternative Hangul input method for Mac OS X. It's based on libhangul of Open Hangul Project. (http://kldp.net/projects/hangul/)\
+\
+Homepage : http://baram.or.kr}]]></resource></locale><locale lang="ko"><resource mime-type="text/rtf" kind="embedded" type="welcome"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf320
+{\fonttbl\f0\fnil\fcharset129 AppleGothic;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs28 \cf0 \'b9\'d9\'b6\'f7\'c0\'d4\'b7\'c2\'b1\'e2\'b4\'c2
+\f1  Mac OS X
+\f0 \'bf\'eb
+\f1  
+\f0 \'b4\'eb\'be\'c8 \'c7\'d1\'b1\'db \'c0\'d4\'b7\'c2\'b1\'e2 \'c0\'d4\'b4\'cf\'b4\'d9. \'b9\'d9\'b6\'f7\'c0\'d4\'b7\'c2\'b1\'e2\'b4\'c2 \'bf\'ad\'b8\'b0\'c7\'d1\'b1\'db \'c7\'c1\'b7\'ce\'c1\'a7\'c6\'ae\'c0\'c7 
+\f1 libhangul
+\f0 \'bf\'a1 \'b1\'e2\'b9\'dd\'c7\'df\'bd\'c0\'b4\'cf\'b4\'d9.
+\f1  (http://kldp.net/projects/hangul/)\
+\
+
+\f0 \'c8\'a8\'c6\'e4\'c0\'cc\'c1\'f6
+\f1  : http://baram.or.kr}]]></resource></locale></resources><requirements><requirement id="sosv" operator="ge" value="'10.5.0'"><message-title>지원하지 않는 OS 버젼입니다.</message-title><message>바람 입력기는 Mac OS X 10.5 Leopard 이상의 OS가 설치된 시스템에서 사용가능합니다.</message></requirement></requirements><flags/><postinstall><action id="com.apple.packagemaker.actions.openfile"><value>/Library/Input Methods/Baram.app/Contents/SharedSupport/EnableAccessibilityAPI.app</value><type>absolute-path</type></action></postinstall><item type="file">01kr.xml</item><item type="file">02hanja.xml</item><item type="file">03mswin.xml</item><item type="file">04baram.xml</item><mod>description</mod><mod>properties.title</mod><mod>properties.userDomain</mod><mod>properties.customizeOption</mod><mod>postinstallActions.actions</mod><mod>properties.systemDomain</mod><mod>properties.anywhereDomain</mod></pkmkdoc>

@@ -1,0 +1,14 @@
+/* Localized versions of Info.plist keys */
+
+NSHumanReadableCopyright = "Copyright © 2008 Ha-young Jeong 
+http://baram.or.kr
+This program comes with ABSOLUTELY NO WARRANTY. This is free software, and you are welcome to redistribute it under certain conditions.";
+
+kr.or.baram.inputmethod.Baram.english = "English";
+kr.or.baram.inputmethod.Baram.hangul  = "Hangul";
+kr.or.baram.inputmethod.Baram.hanja   = "Hanja";
+kr.or.baram.inputmethod.Baram.hiragana = "Hiragana";
+kr.or.baram.inputmethod.Baram.katakana = "Katakana";
+
+CFBundleName = "Baram";
+CFBundleDisplayName = "Baram";

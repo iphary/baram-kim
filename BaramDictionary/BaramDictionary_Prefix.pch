@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'BaramDictionary' target in the 'BaramDictionary' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
